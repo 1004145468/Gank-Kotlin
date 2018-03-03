@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Gank</string>
+    <string name="navigation_technology">技术</string>
+    <string name="navigation_pic">干货</string>
+    <string name="networkerror">网络请求错误</string>
+    <string name="platform_android">Android</string>
+    <string name="platform_ios">iOS</string>
+    <string name="platform_foreground">前端</string>
+    <string name="platform_extension">拓展资源</string>
+</resources>

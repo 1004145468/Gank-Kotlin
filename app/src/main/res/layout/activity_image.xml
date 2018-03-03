@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="gank.yl.com.gank.ImageActivity">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/mPicView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:actualImageScaleType="centerCrop"
+        app:fadeDuration="100"
+        app:roundBottomLeft="false"
+        app:roundBottomRight="true"
+        app:roundTopLeft="true"
+        app:roundTopRight="false"
+        app:roundedCornerRadius="10dp"
+        android:transitionName="shareview"/>
+
+</android.support.design.widget.CoordinatorLayout>
