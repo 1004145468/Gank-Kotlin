@@ -2,7 +2,10 @@ package gank.yl.com.gank.main.gank.ui
 
 import android.support.v7.widget.LinearLayoutManager
 import gank.yl.com.gank.R
-import gank.yl.com.gank.common.*
+import gank.yl.com.gank.common.BaseFragment
+import gank.yl.com.gank.common.DATA_COUNT
+import gank.yl.com.gank.common.GankApplication
+import gank.yl.com.gank.common.SpaceItemDecoration
 import gank.yl.com.gank.injection.component.DaggerGankComponent
 import gank.yl.com.gank.injection.module.GankModule
 import gank.yl.com.gank.main.gank.GankContract
